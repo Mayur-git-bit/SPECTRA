@@ -1,0 +1,138 @@
+{
+  "job_id": "cb97238c-7132-4ca5-bfbc-76c7741ff616",
+  "status": "completed",
+  "file": {
+    "name": "cb97238c-7132-4ca5-bfbc-76c7741ff616.iq",
+    "format": "IQ",
+    "size_bytes": 80000,
+    "iq_dtype": "float32",
+    "channels": 2
+  },
+  "acquisition": {
+    "sampling_rate": {
+      "value": 1000000.0,
+      "unit": "Hz",
+      "status": "user_provided"
+    },
+    "sample_count": 10000,
+    "duration": {
+      "value": 0.01,
+      "unit": "s",
+      "status": "measured"
+    }
+  },
+  "spectral": {
+    "peak_frequency": {
+      "value": -2929.6875,
+      "unit": "Hz",
+      "status": "estimated"
+    },
+    "bandwidth": {
+      "value": 190429.6875,
+      "unit": "Hz",
+      "status": "estimated"
+    },
+    "lower_edge": {
+      "value": -94726.5625,
+      "unit": "Hz",
+      "status": "estimated"
+    },
+    "upper_edge": {
+      "value": 95703.125,
+      "unit": "Hz",
+      "status": "estimated"
+    },
+    "noise_floor_db": {
+      "value": -82.37718671684392,
+      "unit": "dB",
+      "status": "estimated"
+    },
+    "snr_db": {
+      "value": 29.09248278176689,
+      "unit": "dB",
+      "status": "estimated"
+    }
+  },
+  "modulation": {
+    "prediction": "QPSK",
+    "confidence": 0.9267216324806213,
+    "probabilities": {
+      "FSK": 0.05771374702453613,
+      "QAM": 0.0015354662900790572,
+      "QPSK": 0.9267216324806213,
+      "PSK": 0.014029175974428654
+    },
+    "status": "model_predicted"
+  },
+  "synchronization": {
+    "symbol_rate": {
+      "value": 1100.0,
+      "unit": "symbols/s",
+      "status": "estimated"
+    },
+    "samples_per_symbol": {
+      "value": 909.0909090909091,
+      "unit": "samples/symbol",
+      "status": "calculated"
+    },
+    "frequency_offset_hz": {
+      "value": 12.5,
+      "unit": "Hz",
+      "status": "estimated"
+    },
+    "phase_offset_rad": {
+      "value": -0.7853965759277344,
+      "unit": "rad",
+      "status": "estimated"
+    },
+    "timing_offset": {
+      "value": 0.0,
+      "unit": "samples",
+      "status": "unavailable"
+    }
+  },
+  "demodulation": {
+    "receiver": "PSK",
+    "status": "completed",
+    "symbol_count": 9,
+    "bit_count": 18,
+    "evm_rms_pct": {
+      "value": 34.158783789124534,
+      "unit": "%",
+      "status": "estimated"
+    },
+    "ber": {
+      "value": null,
+      "unit": "",
+      "status": "unavailable"
+    },
+    "constellation_i": [
+      -0.9999999828844689,
+      -0.15552575673977523,
+      0.9898211985649784,
+      0.2125647159843301,
+      -0.2817298805907612,
+      -0.9369514609001415,
+      -0.9096359704417629,
+      -0.4792383640548923,
+      0.8412615040281297
+    ],
+    "constellation_q": [
+      1.587469686696327e-06,
+      -0.9002829957484613,
+      -0.14231640708372098,
+      0.9771469726446768,
+      -0.9594937409066817,
+      0.34945947440283465,
+      0.41540626567970207,
+      -0.8776847695249981,
+      -0.5406283807495527
+    ]
+  },
+  "bitstream": {
+    "length_bits": 18,
+    "binary_preview": "111000011011111000",
+    "hex_preview": "E1BE",
+    "status": "completed"
+  }
+}

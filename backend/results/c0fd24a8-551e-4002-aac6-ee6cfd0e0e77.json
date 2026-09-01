@@ -1,0 +1,170 @@
+{
+  "job_id": "c0fd24a8-551e-4002-aac6-ee6cfd0e0e77",
+  "status": "completed",
+  "file": {
+    "name": "c0fd24a8-551e-4002-aac6-ee6cfd0e0e77.iq",
+    "format": "IQ",
+    "size_bytes": 80000,
+    "iq_dtype": "float32",
+    "channels": 2
+  },
+  "acquisition": {
+    "sampling_rate": {
+      "value": 1000000.0,
+      "unit": "Hz",
+      "status": "user_provided"
+    },
+    "sample_count": 10000,
+    "duration": {
+      "value": 0.01,
+      "unit": "s",
+      "status": "measured"
+    }
+  },
+  "spectral": {
+    "peak_frequency": {
+      "value": 14648.4375,
+      "unit": "Hz",
+      "status": "estimated"
+    },
+    "bandwidth": {
+      "value": 163085.9375,
+      "unit": "Hz",
+      "status": "estimated"
+    },
+    "lower_edge": {
+      "value": -75195.3125,
+      "unit": "Hz",
+      "status": "estimated"
+    },
+    "upper_edge": {
+      "value": 87890.625,
+      "unit": "Hz",
+      "status": "estimated"
+    },
+    "noise_floor_db": {
+      "value": -70.36540299693921,
+      "unit": "dB",
+      "status": "estimated"
+    },
+    "snr_db": {
+      "value": 17.332525556586454,
+      "unit": "dB",
+      "status": "estimated"
+    }
+  },
+  "modulation": {
+    "prediction": "QAM",
+    "confidence": 0.8045888543128967,
+    "probabilities": {
+      "FSK": 0.07489138096570969,
+      "QAM": 0.8045888543128967,
+      "QPSK": 0.07010430097579956,
+      "PSK": 0.05041550099849701
+    },
+    "status": "model_predicted"
+  },
+  "synchronization": {
+    "symbol_rate": {
+      "value": 2800.0,
+      "unit": "symbols/s",
+      "status": "estimated"
+    },
+    "samples_per_symbol": {
+      "value": 357.14285714285717,
+      "unit": "samples/symbol",
+      "status": "calculated"
+    },
+    "frequency_offset_hz": {
+      "value": 5000.0,
+      "unit": "Hz",
+      "status": "estimated"
+    },
+    "phase_offset_rad": {
+      "value": 0.3804834485054016,
+      "unit": "rad",
+      "status": "low_confidence"
+    },
+    "timing_offset": {
+      "value": 0.0,
+      "unit": "samples",
+      "status": "unavailable"
+    }
+  },
+  "demodulation": {
+    "receiver": "QAM",
+    "status": "completed",
+    "symbol_count": 25,
+    "bit_count": 100,
+    "evm_rms_pct": {
+      "value": 35.64110255700396,
+      "unit": "%",
+      "status": "estimated"
+    },
+    "ber": {
+      "value": null,
+      "unit": "",
+      "status": "unavailable"
+    },
+    "constellation_i": [
+      0.6138641717334474,
+      1.2232462785543485,
+      -0.7662355205674194,
+      0.5816469001388327,
+      -0.8185798019387559,
+      0.2310137592241145,
+      0.6126859859423589,
+      0.7222161674900202,
+      -0.2233700103714157,
+      -1.0223208585034353,
+      -0.04998028514846958,
+      0.6680752036873208,
+      0.12983195643073778,
+      -0.4217148814122905,
+      0.6727417018609175,
+      0.5281484085534588,
+      0.18164224433761506,
+      0.1834537054172203,
+      -0.9553679780044471,
+      0.5305140825216588,
+      0.8928214297347096,
+      -0.4830811157911718,
+      1.7035826025936052,
+      0.2269287623900123,
+      -0.8621781231856951
+    ],
+    "constellation_q": [
+      -1.460297134839945,
+      0.5398035365152273,
+      -0.8232344850351456,
+      -0.7234520104995015,
+      -0.695954638002662,
+      -0.20651069884424106,
+      0.3145851900284746,
+      0.019929593986877114,
+      -0.5260216403122563,
+      -0.12391983584234911,
+      -1.2177399026802143,
+      0.48082826799112655,
+      -0.3938544936596179,
+      -0.12792760273822232,
+      1.0018544535105207,
+      1.043520744484932,
+      1.1977992173848577,
+      -0.5091020649832139,
+      -0.4120128553399328,
+      -1.4117414461688584,
+      -1.3308188299090449,
+      -0.6157338705485587,
+      0.40597792702179825,
+      0.8414168261154642,
+      -0.5556969972955591
+    ]
+  },
+  "bitstream": {
+    "length_bits": 100,
+    "binary_preview": "0011111000000011000001111111111001010100000111100111010110101011101101110100001100100101111010110100",
+    "hex_preview": "3E0307FE541E75ABB74325EB4",
+    "status": "completed"
+  }
+}

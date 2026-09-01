@@ -1,0 +1,170 @@
+{
+  "job_id": "bbb893f0-e638-4fa6-8c55-3b674e938197",
+  "status": "completed",
+  "file": {
+    "name": "bbb893f0-e638-4fa6-8c55-3b674e938197.iq",
+    "format": "IQ",
+    "size_bytes": 80000,
+    "iq_dtype": "float32",
+    "channels": 2
+  },
+  "acquisition": {
+    "sampling_rate": {
+      "value": 1000000.0,
+      "unit": "Hz",
+      "status": "user_provided"
+    },
+    "sample_count": 10000,
+    "duration": {
+      "value": 0.01,
+      "unit": "s",
+      "status": "measured"
+    }
+  },
+  "spectral": {
+    "peak_frequency": {
+      "value": -1953.125,
+      "unit": "Hz",
+      "status": "estimated"
+    },
+    "bandwidth": {
+      "value": 182617.1875,
+      "unit": "Hz",
+      "status": "estimated"
+    },
+    "lower_edge": {
+      "value": -84960.9375,
+      "unit": "Hz",
+      "status": "estimated"
+    },
+    "upper_edge": {
+      "value": 97656.25,
+      "unit": "Hz",
+      "status": "estimated"
+    },
+    "noise_floor_db": {
+      "value": -75.73465010510327,
+      "unit": "dB",
+      "status": "estimated"
+    },
+    "snr_db": {
+      "value": 22.54623832160423,
+      "unit": "dB",
+      "status": "estimated"
+    }
+  },
+  "modulation": {
+    "prediction": "PSK",
+    "confidence": 0.5671898722648621,
+    "probabilities": {
+      "FSK": 0.09492412954568863,
+      "QAM": 0.0030713279265910387,
+      "QPSK": 0.3348146677017212,
+      "PSK": 0.5671898722648621
+    },
+    "status": "model_predicted"
+  },
+  "synchronization": {
+    "symbol_rate": {
+      "value": 2600.0,
+      "unit": "symbols/s",
+      "status": "estimated"
+    },
+    "samples_per_symbol": {
+      "value": 384.61538461538464,
+      "unit": "samples/symbol",
+      "status": "calculated"
+    },
+    "frequency_offset_hz": {
+      "value": 2650.0,
+      "unit": "Hz",
+      "status": "estimated"
+    },
+    "phase_offset_rad": {
+      "value": -0.49581828713417053,
+      "unit": "rad",
+      "status": "low_confidence"
+    },
+    "timing_offset": {
+      "value": 0.0,
+      "unit": "samples",
+      "status": "unavailable"
+    }
+  },
+  "demodulation": {
+    "receiver": "PSK",
+    "status": "completed",
+    "symbol_count": 25,
+    "bit_count": 50,
+    "evm_rms_pct": {
+      "value": 46.415694790091365,
+      "unit": "%",
+      "status": "estimated"
+    },
+    "ber": {
+      "value": null,
+      "unit": "",
+      "status": "unavailable"
+    },
+    "constellation_i": [
+      0.33401862571798413,
+      0.8864947451283856,
+      0.8771352770184194,
+      -0.9124004553496701,
+      -0.3756505051329023,
+      0.48729429559664744,
+      -0.6466578389205151,
+      -0.9966744190919414,
+      -0.944028813036919,
+      -0.4735056869273523,
+      0.8225039607715177,
+      -0.9679074426898926,
+      0.34411373737047485,
+      0.18899690965169255,
+      -0.8888721032288074,
+      0.8336623386778939,
+      -0.9824296643544711,
+      -0.9129748901612196,
+      0.57645690108608,
+      0.08143933334420725,
+      -0.10256559373851183,
+      0.38470295675914024,
+      0.5015527153951608,
+      0.6450325933174706,
+      0.18737193549833098
+    ],
+    "constellation_q": [
+      0.930702021171372,
+      0.6039262850964122,
+      0.30067152511986905,
+      0.48787916839226786,
+      -0.9850979183759914,
+      -0.8611808920086833,
+      0.6730791568270078,
+      -0.2217970390206132,
+      -0.4450766621288829,
+      0.7533375322797291,
+      0.7540866190186377,
+      -0.102950024357783,
+      -0.9262191694233443,
+      0.5129540451680994,
+      0.07905228489888971,
+      -0.03282630471225943,
+      -0.17998462115987776,
+      0.21875876706097477,
+      -0.8042357034131821,
+      -0.9676543856323339,
+      1.0348407329248952,
+      -0.9041262923441722,
+      -0.9139829665624266,
+      0.810603230693317,
+      -0.1405144237063936
+    ]
+  },
+  "bitstream": {
+    "length_bits": 50,
+    "binary_preview": "01000011101001111101001110011100111110100110100100",
+    "hex_preview": "43A7D39CFA69",
+    "status": "completed"
+  }
+}
