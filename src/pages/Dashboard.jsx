@@ -6,7 +6,7 @@ import { useAnalysis } from '../context/AnalysisContext';
 import { uploadAndAnalyzeSignal } from '../utils/signalUpload';
 
 // Simple canvas-based waveform renderer
-function WaveformCanvas({ iSamples, qSamples, amplitude, time }) {
+function WaveformCanvas({ i_samples: iSamples, q_samples: qSamples, amplitude, time }) {
   const canvasRef = useRef(null);
   
   useEffect(() => {
@@ -72,7 +72,12 @@ function WaveformCanvas({ iSamples, qSamples, amplitude, time }) {
 }
 
 // Spectrum canvas renderer
-function SpectrumCanvas({ frequency, powerDb, noiseFloorDb, peakFrequencyHz }) {
+function SpectrumCanvas({
+  frequency,
+  power_db: powerDb,
+  noise_floor_db: noiseFloorDb,
+  peak_frequency_hz: peakFrequencyHz
+}) {
   const canvasRef = useRef(null);
   
   useEffect(() => {
@@ -157,7 +162,7 @@ function SpectrumCanvas({ frequency, powerDb, noiseFloorDb, peakFrequencyHz }) {
 }
 
 // Waterfall canvas renderer
-function WaterfallCanvas({ time, frequency, powerDb }) {
+function WaterfallCanvas({ time, frequency, power_db: powerDb }) {
   const canvasRef = useRef(null);
   
   useEffect(() => {
